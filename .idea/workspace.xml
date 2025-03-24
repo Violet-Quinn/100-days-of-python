@@ -39,12 +39,12 @@
     &quot;assignee&quot;: &quot;Violet-Quinn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Violet-Quinn/100_days_of_python.git&quot;,
-    &quot;accountId&quot;: &quot;bfaa0ced-f3dc-40b4-bc8d-94f80b5c5849&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Violet-Quinn/100-days-of-python.git",
+    "accountId": "1e862053-4723-4fbd-a2b1-8defcfec6ffd"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -143,7 +143,7 @@
       <workItem from="1742805335121" duration="172000" />
       <workItem from="1742805804962" duration="425000" />
       <workItem from="1742806416867" duration="192000" />
-      <workItem from="1742806678957" duration="18000" />
+      <workItem from="1742806678957" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -425,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742803068955</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 63 sqlite and sqlalchemy intro">
+      <option name="closed" value="true" />
+      <created>1742807130678</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1742807130679</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
