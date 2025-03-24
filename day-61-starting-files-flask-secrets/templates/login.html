@@ -1,0 +1,36 @@
+<!--<!DOCTYPE HTML>-->
+
+<!--<html>-->
+<!--	<head>-->
+<!--		<title>Login</title>-->
+<!--	</head>-->
+<!--	<body>-->
+<!--        <div class="container">-->
+<!--		<h1>Login</h1>-->
+<!--&lt;!&ndash;        <form method="POST" action="{{url_for('login')}}" novalidate>&ndash;&gt;-->
+<!--&lt;!&ndash;			{{ form.csrf_token }}&ndash;&gt;-->
+<!--&lt;!&ndash;			<p>{{ form.email.label }} <br> {{ form.email(size=30) }}&ndash;&gt;-->
+<!--&lt;!&ndash;			{%for err in form.email.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;				<span style="color:red">{{err}}</span>&ndash;&gt;-->
+<!--&lt;!&ndash;			{% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;			</p>&ndash;&gt;-->
+<!--&lt;!&ndash;			<p>{{ form.password.label }} <br> {{ form.password(size=30) }}&ndash;&gt;-->
+<!--&lt;!&ndash;			{%for err in form.email.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;				<span style="color:red">{{err}}</span>&ndash;&gt;-->
+<!--&lt;!&ndash;			{% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;			</p>&ndash;&gt;-->
+<!--&lt;!&ndash;			{{form.submit}}&ndash;&gt;-->
+<!--&lt;!&ndash;		</form>&ndash;&gt;-->
+<!--        </div>-->
+<!--	</body>-->
+<!--</html>-->
+
+{% extends "base.html" %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}Login{% endblock %}
+{% block content %}
+    <div class="container">
+    <h1>Login</h1>
+        {{ render_form(form) }}
+    </div>
+{% endblock %}
