@@ -10,8 +10,9 @@
       <excludeFolder url="file://$MODULE_DIR$/day-63-starting-files-library-project/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/sqlite-intro-2/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/sqlite-intro/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/day-64-starting-files-top-movies/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (PycharmProjects)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (PycharmProjects) (7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

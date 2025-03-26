@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="progress upto day 63 migrated to new repo">
-      <change afterPath="$PROJECT_DIR$/day-63-final/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-63-final/templates/edit_rating.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-63-final/templates/index.html" afterDir="false" />
+    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 63 complete basic crud implementation complete library database using sqlalchemy">
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-63-final/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day-63-final/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +51,12 @@
     &quot;assignee&quot;: &quot;Violet-Quinn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Violet-Quinn/100-days-of-python.git",
-    "accountId": "1e862053-4723-4fbd-a2b1-8defcfec6ffd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Violet-Quinn/100-days-of-python.git&quot;,
+    &quot;accountId&quot;: &quot;1e862053-4723-4fbd-a2b1-8defcfec6ffd&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -60,64 +66,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Python.alternate.executor": "Run",
-    "Python.blackjack.executor": "Run",
-    "Python.csv_main.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.day-16_turtle.executor": "Run",
-    "Python.day24_main.executor": "Run",
-    "Python.day_18_turtle.executor": "Run",
-    "Python.day_19.executor": "Run",
-    "Python.food.executor": "Run",
-    "Python.for-loop-practice.executor": "Run",
-    "Python.for_loops.executor": "Run",
-    "Python.guess_number.executor": "Run",
-    "Python.hangman_game.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.higher_lower_game_main.executor": "Run",
-    "Python.interaction.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.miles_to_kilo.executor": "Run",
-    "Python.openweathertest.executor": "Run",
-    "Python.password_generator.executor": "Run",
-    "Python.pong_main.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.server.executor": "Run",
-    "Python.snake_game.executor": "Run",
-    "Python.snake_game_main.executor": "Run",
-    "Python.squirrel_census_analysis.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.testing_classes.executor": "Run",
-    "Python.text-fill-test.executor": "Run",
-    "Python.tip_calculator.executor": "Run",
-    "Python.treasure_island.executor": "Run",
-    "Python.ui.executor": "Run",
-    "Python.unlimited_positional_args.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ultraviolet/PycharmProjects/100_days_of_python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.alternate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.csv_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day-16_turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day24_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_18_turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.food.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for-loop-practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.higher_lower_game_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.miles_to_kilo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openweathertest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pong_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake_game_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirrel_census_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text-fill-test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tip_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.treasure_island.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unlimited_positional_args.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ultraviolet/PycharmProjects/100_days_of_python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/upgraded-blog/static" />
@@ -149,7 +155,9 @@
       <workItem from="1742805335121" duration="172000" />
       <workItem from="1742805804962" duration="425000" />
       <workItem from="1742806416867" duration="192000" />
-      <workItem from="1742806678957" duration="4381000" />
+      <workItem from="1742806678957" duration="4589000" />
+      <workItem from="1742888630780" duration="3381000" />
+      <workItem from="1742973618252" duration="12395000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -455,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742807504497</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="day 63 complete basic crud implementation complete library database using sqlalchemy">
+      <option name="closed" value="true" />
+      <created>1742816163963</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1742816163964</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +492,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="progress upto day 25, updated code for snake game" />
     <MESSAGE value="us states game code updated, used list comprehension for reduced code" />
     <MESSAGE value="NATO Phonetic alphabet Code" />
     <MESSAGE value="upto day 27, miles to kilometers convertor app using tkinter" />
@@ -501,13 +516,14 @@
     <MESSAGE value="day 62 coffee and wifi project" />
     <MESSAGE value="day 63 sqlite and sqlalchemy intro" />
     <MESSAGE value="progress upto day 63 migrated to new repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="progress upto day 63 migrated to new repo" />
+    <MESSAGE value="day 63 complete basic crud implementation complete library database using sqlalchemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 63 complete basic crud implementation complete library database using sqlalchemy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$rock_paper_scissors.coverage" NAME="rock_paper_scissors Coverage Results" MODIFIED="1741847907759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$snake_game_main.coverage" NAME="snake_game_main Coverage Results" MODIFIED="1741847842408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$server.coverage" NAME="server Coverage Results" MODIFIED="1742493058559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-57-templating-with-jinja" />
     <SUITE FILE_PATH="coverage/100_days_of_python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1741847685972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello-flask" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1742816024170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-63-final" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1743005247693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-64-starting-files-top-movies" />
   </component>
 </project>
