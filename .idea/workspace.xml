@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 63 complete basic crud implementation complete library database using sqlalchemy">
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/templates/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" afterDir="false" />
+    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +148,8 @@
       <workItem from="1742806416867" duration="192000" />
       <workItem from="1742806678957" duration="4589000" />
       <workItem from="1742888630780" duration="3381000" />
-      <workItem from="1742973618252" duration="12395000" />
+      <workItem from="1742973618252" duration="12498000" />
+      <workItem from="1743019886264" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -471,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742816163964</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap">
+      <option name="closed" value="true" />
+      <created>1743018925730</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1743018925730</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +492,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="us states game code updated, used list comprehension for reduced code" />
     <MESSAGE value="NATO Phonetic alphabet Code" />
     <MESSAGE value="upto day 27, miles to kilometers convertor app using tkinter" />
     <MESSAGE value="day 28 pomodoro timer completed" />
@@ -517,7 +516,8 @@
     <MESSAGE value="day 63 sqlite and sqlalchemy intro" />
     <MESSAGE value="progress upto day 63 migrated to new repo" />
     <MESSAGE value="day 63 complete basic crud implementation complete library database using sqlalchemy" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 63 complete basic crud implementation complete library database using sqlalchemy" />
+    <MESSAGE value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$rock_paper_scissors.coverage" NAME="rock_paper_scissors Coverage Results" MODIFIED="1741847907759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

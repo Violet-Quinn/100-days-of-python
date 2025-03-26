@@ -7,9 +7,18 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
-API_KEY = '839c3d1a564f0a8b6b91015dba7b7f77'
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access API keys
+api_key = os.getenv("API_KEY")
+secret_key = os.getenv("SECRET_KEY")
+API_KEY = api_key
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = secret_key
 Bootstrap5(app)
 
 ##CREATE DB
