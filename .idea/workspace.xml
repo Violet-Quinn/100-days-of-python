@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap">
+    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap, api key handled">
+      <change afterPath="$PROJECT_DIR$/day-66-starting-files-cafe-api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-66-starting-files-cafe-api/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-66-starting-files-cafe-api/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day-64-starting-files-top-movies/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +153,9 @@
       <workItem from="1742806678957" duration="4589000" />
       <workItem from="1742888630780" duration="3381000" />
       <workItem from="1742973618252" duration="12498000" />
-      <workItem from="1743019886264" duration="201000" />
+      <workItem from="1743019886264" duration="349000" />
+      <workItem from="1743098297785" duration="2810000" />
+      <workItem from="1743167807408" duration="4654000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -471,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743018925730</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap, api key handled">
+      <option name="closed" value="true" />
+      <created>1743020120008</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1743020120008</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +506,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="NATO Phonetic alphabet Code" />
     <MESSAGE value="upto day 27, miles to kilometers convertor app using tkinter" />
     <MESSAGE value="day 28 pomodoro timer completed" />
     <MESSAGE value="day 29 complete, password manager with generator GUI app" />
@@ -517,13 +530,14 @@
     <MESSAGE value="progress upto day 63 migrated to new repo" />
     <MESSAGE value="day 63 complete basic crud implementation complete library database using sqlalchemy" />
     <MESSAGE value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap" />
+    <MESSAGE value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap, api key handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap, api key handled" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$rock_paper_scissors.coverage" NAME="rock_paper_scissors Coverage Results" MODIFIED="1741847907759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$snake_game_main.coverage" NAME="snake_game_main Coverage Results" MODIFIED="1741847842408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$server.coverage" NAME="server Coverage Results" MODIFIED="1742493058559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-57-templating-with-jinja" />
     <SUITE FILE_PATH="coverage/100_days_of_python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1741847685972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello-flask" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1743005247693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-64-starting-files-top-movies" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1743194613311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-66-starting-files-cafe-api" />
   </component>
 </project>
