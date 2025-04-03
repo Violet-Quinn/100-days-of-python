@@ -4,18 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 67 complete RESTful routing in blog website">
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/static/files/cheat_sheet.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-68-starting-files-flask-auth/templates/secrets.html" afterDir="false" />
+    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 68 complete authentication in blog website">
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/angela-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/default-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/edit-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/register-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/make-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_24_03_25,_13_49_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_24_03_25__13_49__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +150,36 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_100_days_of_bootcamp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day-69-starting-files-blog-with-users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day-69-starting-files-blog-with-users/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -162,7 +209,9 @@
       <workItem from="1743019886264" duration="349000" />
       <workItem from="1743098297785" duration="2810000" />
       <workItem from="1743167807408" duration="5655000" />
-      <workItem from="1743400331596" duration="14918000" />
+      <workItem from="1743400331596" duration="18695000" />
+      <workItem from="1743705830981" duration="6636000" />
+      <workItem from="1743714349404" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -508,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743410339648</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="day 68 complete authentication in blog website">
+      <option name="closed" value="true" />
+      <created>1743536851508</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1743536851508</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +586,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="day 29 complete, password manager with generator GUI app" />
     <MESSAGE value="day 30 complete, added exception handling in NATO alphabet main and password manager, also added search functionality in password manager." />
     <MESSAGE value="day 31 complete, flash card application complete" />
     <MESSAGE value="day 32 complete, learned how to use smtp service to send email through python and datetime module" />
@@ -554,13 +610,14 @@
     <MESSAGE value="day 64 top 10 movies website, implemented crud operations using sqlalchemy, flask, html, css and bootstrap, api key handled" />
     <MESSAGE value="day 66 postman practice with requests and documentation builder" />
     <MESSAGE value="day 67 complete RESTful routing in blog website" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 67 complete RESTful routing in blog website" />
+    <MESSAGE value="day 68 complete authentication in blog website" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 68 complete authentication in blog website" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$rock_paper_scissors.coverage" NAME="rock_paper_scissors Coverage Results" MODIFIED="1741847907759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$snake_game_main.coverage" NAME="snake_game_main Coverage Results" MODIFIED="1741847842408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_days_of_python$server.coverage" NAME="server Coverage Results" MODIFIED="1742493058559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-57-templating-with-jinja" />
     <SUITE FILE_PATH="coverage/100_days_of_python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1741847685972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello-flask" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1743536477846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-68-starting-files-flask-auth" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1743714358979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day-69-starting-files-blog-with-users" />
   </component>
 </project>
