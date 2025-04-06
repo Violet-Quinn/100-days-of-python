@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 68 complete authentication in blog website">
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/angela-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/default-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/edit-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/assets/img/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/make-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-69-starting-files-blog-with-users/templates/register.html" afterDir="false" />
+    <list default="true" id="4961c584-2d97-464c-9e45-8ac1b4e6f49f" name="Changes" comment="day 69 adding users">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_100_days_of_bootcamp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_24_03_25,_13_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_24_03_25__13_49__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +185,8 @@
       <workItem from="1743167807408" duration="5655000" />
       <workItem from="1743400331596" duration="18695000" />
       <workItem from="1743705830981" duration="6636000" />
-      <workItem from="1743714349404" duration="133000" />
+      <workItem from="1743714349404" duration="288000" />
+      <workItem from="1743967499883" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="basic code practice">
       <option name="closed" value="true" />
@@ -565,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743536851508</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="day 69 adding users">
+      <option name="closed" value="true" />
+      <created>1743714819532</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1743714819532</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +569,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="day 30 complete, added exception handling in NATO alphabet main and password manager, also added search functionality in password manager." />
     <MESSAGE value="day 31 complete, flash card application complete" />
     <MESSAGE value="day 32 complete, learned how to use smtp service to send email through python and datetime module" />
     <MESSAGE value="day 33 complete, iss overhead notifier project" />
@@ -611,7 +593,8 @@
     <MESSAGE value="day 66 postman practice with requests and documentation builder" />
     <MESSAGE value="day 67 complete RESTful routing in blog website" />
     <MESSAGE value="day 68 complete authentication in blog website" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 68 complete authentication in blog website" />
+    <MESSAGE value="day 69 adding users" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 69 adding users" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$rock_paper_scissors.coverage" NAME="rock_paper_scissors Coverage Results" MODIFIED="1741847907759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

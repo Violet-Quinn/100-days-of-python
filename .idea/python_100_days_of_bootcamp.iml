@@ -15,8 +15,9 @@
       <excludeFolder url="file://$MODULE_DIR$/day-67-starting-files-upgraded-blog/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/day-68-starting-files-flask-auth/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/day-69-starting-files-blog-with-users/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/day-71-starting-files-blog-for-deployment/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (PycharmProjects) (11)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (PycharmProjects) (12)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
