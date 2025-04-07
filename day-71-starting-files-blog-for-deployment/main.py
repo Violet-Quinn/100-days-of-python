@@ -1,6 +1,6 @@
 from datetime import date
 from flask import Flask, abort, render_template, redirect, url_for, flash, request
-from flask_bootstrap import Bootstrap5
+from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
 from flask_gravatar import Gravatar
 from flask_login import UserMixin, login_user, LoginManager, current_user, logout_user
@@ -36,7 +36,7 @@ app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
 MAIL_ADDRESS = os.getenv("EMAIL_KEY")
 MAIL_APP_PW = os.getenv("PASSWORD_KEY")
 ckeditor = CKEditor(app)
-Bootstrap5(app)
+Bootstrap(app)
 
 # Configure Flask-Login
 login_manager = LoginManager()
